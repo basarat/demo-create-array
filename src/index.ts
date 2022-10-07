@@ -1,5 +1,5 @@
 /** 
- * Create an array of n numbers [0, n-1]
+ * Create an array of n numbers [0, ... ,n-1]
  **/
 
 export function naive(n: number) {
