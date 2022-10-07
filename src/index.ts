@@ -9,3 +9,19 @@ export function naive(n: number) {
   }
   return result;
 }
+
+export function wrong(n: number) {
+  return Array(n).map((_, i) => i);
+}
+
+export function fixed(n: number) {
+  return Array(n).fill('').map((_, i) => i);
+}
+
+export function explicit(n: number) {
+  return Array.from({ length: n }, (_, i) => i);
+}
+
+export function modern(n: number) {
+  return [...Array(n)].map((_, i) => i);
+}
