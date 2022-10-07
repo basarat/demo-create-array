@@ -9,7 +9,8 @@
     "dev:tsc": "npm run build:tsc -- --watch",
     "build": "npm run build:jest && npm run build:tsc",
     "start": "node lib/index.js",
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "test": "npm run dev:jest"
   },
   "keywords": [],
   "author": "bas@basarat.com",
